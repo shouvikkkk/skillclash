@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillclash"
+version = "0.1.0"
+description = "Audit installed agent skills for contradictions, shadowing, and discovery-budget overflow"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Shouvik Maji"}]
+
+[project.scripts]
+skillclash = "skillclash.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["skillclash*"]
