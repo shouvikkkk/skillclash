@@ -112,10 +112,6 @@ class CliTestCase(unittest.TestCase):
     def test_queries_drive_routing_section(self):
         write_skill(self.estate, "alpha-skill", description="Do alpha things with databases.")
         write_skill(self.estate, "beta-skill", description="Paint watercolour landscapes outdoors.")
-        queries = os.path.join(self.estate, "queries.txt")
-        # NOTE: the local test run wrote queries inside tmp, but the
-        # published path below uses the estate dir; both resolve the same
-        # way for the CLI since it reads an explicit path.
         queries = os.path.join(self.tmp.name, "queries.txt")
         with open(queries, "w") as handle:
             handle.write("do alpha things\npaint landscapes\n")
