@@ -1,0 +1,8 @@
+---
+name: deploy-helper
+description: Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure. Deploy services to staging and production with blue-green releases, health checks, and automatic rollback on failure.
+---
+
+Deploy only after the test suite passes.
+
+Never deploy on a Friday afternoon.
