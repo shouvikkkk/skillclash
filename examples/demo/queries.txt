@@ -1,0 +1,5 @@
+call REST APIs with retries and auth headers
+manage Postgres schema migrations with rollback
+merge code without tests
+review pull requests for security issues
+deploy services with blue-green releases and automatic rollback
